@@ -34,6 +34,7 @@
 .head {
   height: 80px;
   margin-top: 30px;
+  font-family: 'Red Hat Display', sans-serif;
 }
 
 .tile1 h2 {
@@ -43,6 +44,8 @@
 .tile1 p {
   color: hsla(0, 0%, 100%, 0.75);
   height: 110px;
+  font-family: 'Red Hat Display', sans-serif;
+  font-size:15px; 
 }
 
 /* .tile2 img {
@@ -52,7 +55,7 @@
 } */
 
 .tile2{
-  background-image:linear-gradient(rgba(176, 110, 218, 0.7),rgba(176, 110, 218, 0.7)), url('image-header-desktop.jpg');
+  background-image:linear-gradient(rgba(176, 110, 218, 0.7),rgba(176, 110, 218, 0.7)), url('images\image-header-desktop.jpg');
   background-color:
 }
 
@@ -64,7 +67,12 @@
 .num h4 {
   padding-top: 7px;
   font-size: 12px;
+  font-family: 'Red Hat Display', sans-serif;
 }
+.num h2{
+  font-family: 'Red Hat Display', sans-serif;
+}
+
 
 #sp {
   color: hsl(277, 64%, 61%);
