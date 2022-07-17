@@ -25,6 +25,7 @@
 .tile1 {
   background-color: hsl(244, 38%, 16%);
   flex-basis: 50%;
+  width: 447px;
 }
 
 .same {
@@ -45,7 +46,7 @@
   color: hsla(0, 0%, 100%, 0.75);
   height: 110px;
   font-family: 'Red Hat Display', sans-serif;
-  font-size:15px; 
+  font-size:15px;
 }
 
 /* .tile2 img {
@@ -54,9 +55,14 @@
   background-repeat: repeat-x;
 } */
 
-.tile2{
-  background-image:linear-gradient(rgba(176, 110, 218, 0.7),rgba(176, 110, 218, 0.7)), url('images\image-header-desktop.jpg');
-  background-color:
+#tile2{
+  box-shadow: inset 0 0 0 1000px hsl(277, 64%, 61%,0.5);
+  background-image:url("https://media.istockphoto.com/photos/woman-working-from-home-student-girl-using-laptop-in-her-room-picture-id1284755338?b=1&k=20&m=1284755338&s=170667a&w=0&h=SExLZgm20UIOgQCgdETlrxfvxpCuSUq6_oZVFy5ItPs=");
+  width: 447px;
+  background-repeat: repeat-x;
+
+  /* z-index:1; */
+
 }
 
 .num {
